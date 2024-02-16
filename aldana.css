@@ -1,0 +1,461 @@
+
+nav.navbar {
+    background-color: #D6F5FF;
+}
+body {
+    background-color: aliceblue;
+}
+
+#carouselExampleCaptions{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+#categories {
+    text-align: center;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+.card {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*form css*/
+fieldset {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.fieldcontact {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+#input2 {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .input {   
+        width: 45%;
+    } 
+    
+}
+/*end form css*/
+
+div.main .card{
+    display: inline-block;
+    width: 45%;
+    margin: 5px;
+    margin-left: 10px;
+    }
+
+nav[aria-label="breadcrumb"] {
+    position: relative;
+    left: 10px;
+    top: 15px;
+    display: inline;
+}
+
+.select {
+   float: right; 
+}
+
+.select2 {
+    float: none; 
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+
+select {
+  background-color: white;
+  border: thin solid #064579;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 20px;
+  padding: 6px 45px 10px 15px;
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select.selectCheck {
+  background-color: white;
+  border: thin solid #064579;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 18px;
+  padding: 3px 40px 8px 10px;
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 13px;
+}
+/*************************************************************************************************/
+select.minimal {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #064579 50%),
+    linear-gradient(135deg, #064579 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select.minimal:focus {
+  background-image:
+    linear-gradient(45deg, #0d6efd 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, #0d6efd 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: #0d6efd;
+  outline: 0;
+}
+
+.bi {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#cart:link, #cart:active, #cart:visited {
+    color: black;
+}
+#cart:hover {
+    color: #064579;
+}
+.sidebar {
+    background: #D6F5FF;
+    overflow-x: hidden;
+    padding: 10px 0;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #064579;
+    
+  }
+  
+  .sidebar a:hover {
+    color: #0d6efd;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  /*
+  .sidebar input[type="radio"]:checked + a .ref::before {
+    color: #064579;
+    content: ">";
+  }
+  */
+  #sidehead {
+    padding: 6px 8px 6px 16px;
+    display: inline;
+  }
+  
+  .main {
+    margin-left: auto;  
+    margin-right: auto;
+    padding: 0px 10px;
+    margin-top: 25px;
+  }
+
+  .summary {
+    margin-top: 30px;
+    border-left: none;
+
+  }
+  .order {
+    margin-top: 30px;
+  }
+
+  table#carttable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table#carttable tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  table#carttable th {
+    width: 20%;
+  }
+
+
+  .itempic {
+    width: 40%;
+    float: left;
+  }
+
+  .itemdes {
+    display: inline;
+    width: 55%;
+    margin: 10px; 
+  }
+
+  .h6 {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  /* -- quantity box -- */
+
+  input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .number-input {
+    border: 2px solid #ddd;
+    display: inline-flex;
+  }
+  
+  .number-input,
+  .number-input * {
+    box-sizing: border-box;
+  }
+  
+  .number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color:rgb(235, 235, 235);
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+  }
+  
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 2px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+  }
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 30px;
+    padding: 5px;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 12px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+/***********************/
+  .coupon{
+    border-radius: 1px;
+  }
+  .btn-apply{
+    font-size: 15px;
+  }
+  .promo,.checkout   {
+    width: 90%;
+    margin-left: auto;
+    margin-left: auto;
+  }
+
+  .img {
+    margin-top: 30px;
+    overflow: auto;
+  }
+  .des {
+    margin-top: 30px;
+    border-left: 1px solid #ddd;
+  }
+
+  .container, .container2 {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #ddd;
+    width: 75%;
+  }
+  .container2 {
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+  }
+  .container3, .container4 {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .container4 {
+    margin-top: 2px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    font-size: 29px;
+  }
+  .sociallink, .sociallink:link, .sociallink:active, .sociallink:visited {
+    color: black;
+  }
+  .sociallink:hover {
+    color: #064579;
+  }
+
+  .contacts {
+    font-size: small;
+    margin-top: 30px;
+  }
+
+@media only screen and (min-width: 768px) {
+    #carouselExampleCaptions{
+        width: 75%;
+        margin-top: 30px;
+    }
+    #categories {
+        text-align: center;
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        
+    }
+    .card {
+        width: 30%;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    div.main .card{
+        width: 250px;
+        }
+
+    .main {
+         margin-left: 170px; 
+         margin-right: 100px;
+ 
+        }
+
+    .sidebar {
+    width: 150px;
+    height: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 120px;
+    left: 10px;
+    background: #D6F5FF;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }   
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #064579;
+    display: block;
+  }
+
+  #sidehead {
+    padding: 6px 8px 6px 16px;
+  }
+
+  .main {
+    margin-left: 170px;  
+    margin-right: 40px;
+    padding: 0px 10px;
+    position: relative;
+    top: 24px;
+  }
+
+
+  .summary {
+    margin-top: 30px;
+    margin-right: 10px;
+    border-left: 1px solid #ddd;
+  }
+
+  .order {
+    margin-left: 10px;
+  }
+  .container3 {
+    width: 35%;
+  }
+
+  .fieldcontact {
+    margin-left: auto;
+}
+
+#input2 {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+}
+}
+

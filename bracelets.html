@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="aldana.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Home.html">aldana</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ourProducts.html">Our Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactUs.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item divider">
+                    <a class="nav-link">|</a>
+                  </li>  
+                  <li>
+                    <a class="nav-link" href="#" style="color: #0d6efd;">Username (Log Out)</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="Home.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="ourProducts.html">Our Products</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Bracelets</li>
+                </ol>
+            </nav>
+            
+          
+          <div class="sidebar">
+            <h5 id="sidehead">Category:</h5>
+            <a href="necklaces.html">Necklaces</a>
+            <a href="bracelets.html"><span style="color: #064579;">></span>Bracelets</a>
+            <a href="earrings.html">Earrings</a>
+          </div>
+
+          <div class="main">
+            <div style="overflow: auto;">
+                <div class="select">
+                    <a href="cart.html" id="cart" title="cart"><i class="bi bi-cart4"></i></a>
+                    <label for="sortBy">Sort By</label>
+                    <select name="sortBy" id="sortBy" class="minimal">
+                        <option value="" selected>name A->Z</option>
+                        <option value="">highest price</option>
+                        <option value="">newest</option>
+                    </select>
+                </div>
+            </div>
+            <div class="products">
+                <div class="card text-center" >
+                    <a href="#" class="nav-link"><img src="category.jpg" class="card-img-top" alt="category"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">Bracelet</h5>
+                    </div>
+                </div>
+                <div class="card text-center" >
+                    <a href="#" class="nav-link"><img src="category.jpg" class="card-img-top" alt="category"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">Bracelet</h5>
+                    </div>
+                </div>
+                <div class="card text-center" >
+                    <a href="#" class="nav-link"><img src="category.jpg" class="card-img-top" alt="category"></a>
+                    <div class="card-body">
+                    <h5 class="card-title">Bracelet</h5>
+                    </div>
+                </div>
+            
+            </div>
+          </div>
+    </body>    
+</html>                  
